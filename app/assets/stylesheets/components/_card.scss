@@ -1,14 +1,34 @@
-.card-category {
-  background-size: cover;
-  background-position: center;
-  height: 180px;
+.service-card-category {
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
-  font-size: 24px;
-  font-weight: bold;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.service-card-item {
+  background-color: rgb(17, 17, 17);
+  padding: 20px;
   border-radius: 5px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  width: 250px;
+  height: 350px;
+}
+
+.service-card-info h2 {
+  font-size: 24px !important;
+  font-weight: bold;
+}
+
+.service-card-info p {
+  font-size: 16px !important;
+  font-weight: 400;
+}
+
+.service-card-info a {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: white;
+  padding: 10PX 20PX;
+  border: 1px solid white;
+  border-radius: 15px;
 }

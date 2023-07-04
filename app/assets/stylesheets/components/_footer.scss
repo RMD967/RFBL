@@ -1,26 +1,61 @@
-.footer {
-  background: #F4F4F4;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 100px;
-  padding: 0px 50px;
-  color: rgba(0,0,0,0.3);
+.main-footer-container {
+  background: #1f1f1f;
+  color: rgb(255, 255, 255);
 }
-.footer-links {
+
+.main-footer-elements {
   display: flex;
+  flex-direction: row;
+  justify-content: space-around;
   align-items: center;
+  gap: 20px;
 }
-.footer-links a {
-  color: black;
-  opacity: 0.15;
+
+.footer-rfbl-logo img {
+  width: 150px;
+}
+
+.footer-logo-text {
+  align-items: center;
+  padding: 0px 20px;
+}
+
+.footer-path-to {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-path-to a {
+  color: white;
   text-decoration: none;
-  font-size: 24px;
-  padding: 0px 10px;
 }
-.footer-links a:hover {
-  opacity: 1;
+.services-footer-links {
+  align-items: center;
 }
-.footer .fa-heart {
-  color: #D23333;
+
+.footer-nesletter-container {
+  align-items: center;
+}
+
+.outside-main-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 40px 0 40px;
+}
+
+.footer-media-links a {
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  gap: 20px;
+  font-size: 30px;
+}
+
+.footer-cpoyright {
+  padding: 0px 20px;
 }
