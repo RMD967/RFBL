@@ -11,3 +11,8 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+#main-page-color {
+  background-color: $main-page-color;
+  color: $main-font-color;
+}

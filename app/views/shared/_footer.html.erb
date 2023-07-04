@@ -1,43 +1,53 @@
-<footer>
-  <a href="<%= root_path %>">
-    <img src='https://i.postimg.cc/rpBvKrWP/RFBL-ALN.png' alt='RFBL-ALN' class="footer-brand">
-  </a>
-  <p class="footer-info-text">Own your music and be hired as an independent artist.</p>
-
-  <ul id="navbar-nav">
-    <li class="nav-item"><a href="<%= root_path %>#about">About</a></li>
-    <li class="nav-item"><a href="<%= root_path %>#services">Services</a></li>
-      <ul>
-        <li class="nav-item"><a href="/services/audio_production">Audio produciton</a></li>
-        <li class="nav-item"><a href="/services/graphic_design">Graphic design</a></li>
-        <li class="nav-item"><a href="/services/video_production">Video production</a></li>
-        <li class="nav-item"><a href="/services/web_development">Web development</a></li>
-        <li class="nav-item"><a href="/services/live_event_streaming">Radios FBL</a></li>
-      </ul>
-    <li class="nav-item"><a href="<%= root_path %>#livestream">Livestream</a></li>
-    <li class="nav-item"><a href='team/our_team'>Our team</a></li>
-      <ul>
-        <li><a href="/team/RMD">Damian Reyes</a></li>
-      </ul>
-    <li class="nav-item"><a href="<%= root_path %>#contact">Contact</a></li>
-  </ul>
-  <div class="footer-media-links">
-    <a href="#"><i class="fab fa-github"></i></a>
-    <a href="#"><i class="fab fa-instagram"></i></a>
-    <a href="#"><i class="fab fa-facebook"></i></a>
+<div class="main-footer-container">
+  <div class="main-footer-elements">
+    <div class="footer-rfbl-logo">
+      <a href="<%= root_path %>">
+        <img src='https://i.postimg.cc/rpBvKrWP/RFBL-ALN.png' alt='RFBL-ALN'>
+      </a>
+    <p class="footer-logo-text">Own your music and be hired as an independent artist.</p>
+    </div>
+    <div class="footer-path-to">
+        <a href="<%= root_path %>#about">About</a>
+        <div class='services-footer-links'>
+          <div class='services-footer-main'>
+            <a href="<%= root_path %>#services">Services</a>
+          </div>
+          <div class='services-footer-each-link'>
+            <a href="/services/audio_production">Audio produciton</a>
+            <a href="/services/graphic_design">Graphic design</a>
+            <a href="/services/video_production">Video production</a>
+            <a href="/services/web_development">Web development</a>
+            <a href="/services/live_event_streaming">Radios FBL</a>
+          </div>
+        </div>
+        <a href="<%= root_path %>#livestream">Livestream</a>
+        <div class='team-footer-link'>
+          <a href='team/our_team'>Our team</a>
+          <div class='team-member-footer'>
+            <a href="/team/RMD">Damian Reyes</a>
+          </div>
+        </div>
+        <a href="<%= root_path %>#contact">Contact</a>
+    </div>
+    <div class="footer-nesletter-container input-container">
+      <h4> Join Our Weekly Digest</h4>
+      <p>Get exclusive promotions & updates straight to your inbox.</p>
+      <form action="/subscribe" method="POST">
+        <div class="footer-input-container">
+          <input id="email" name="email" type="email" class="email-input" placeholder="Enter your email" required>
+          <button class="footer-btn-primary" type="submit">Subscribe</button>
+        </div>
+      </form>
+    </div>
   </div>
-  <div class="footer-nesletter-container input-container">
-    <h4 class="footer-newsletter-title"> Join Our Weekly Digest</h4>
-    <p class="footer-info-text">Get exclusive promotions & updates straight to your inbox.</p>
-    <form action="/subscribe" method="POST">
-      <div class="footer-input-container">
-        <input id="email" name="email" type="email" class="email-input" placeholder="Enter your email" required>
-        <button class="footer-btn-primary" type="submit">Subscribe</button>
-      </div>
-    </form>
+  <div class="outside-main-footer">
+    <div class="footer-media-links">
+      <a href="#"><i class="fab fa-github"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-facebook"></i></a>
+    </div>
+    <div class="footer-copyright">
+      <p>&copy; <%=Time.now.year%> Radios FBL. All rights reserved.</p>
+    </div>
   </div>
-
-  <div class="footer-copyright">
-    <p>&copy; <%=Time.now.year%> Radios FBL. All rights reserved.</p>
-  </div>
-</footer>
+</div>

@@ -1,12 +1,30 @@
-.navbar-lewagon {
-  justify-content: space-between;
-  background: white;
+.navbar-rfbl {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: linear-gradient(to top, rgba(5, 5, 5, 0.466), rgba(5, 5, 5, 0));
+  backdrop-filter: blur(10px);
+  z-index: 0;
 }
 
-.navbar-lewagon .navbar-collapse {
-  flex-grow: 0;
+.navbar-rfbl-logo img {
+  width: 150px;
 }
 
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
+.rfbl-path-to {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.rfbl-path-to a{
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 25px;
+  padding: 10px 20px 10px 20px;
 }
