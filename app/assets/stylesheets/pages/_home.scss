@@ -18,6 +18,7 @@
   align-items: center;
   text-align: center;
   color: #fff;
+  user-select: none;
 }
 
 .home-banner-radio-content h1 {
@@ -34,6 +35,91 @@
   font-weight: lighter
 }
 
-.btn {
+.about-us-container {
+  margin: 40px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  padding: 20px;
+  background-color: #2b2a2a;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  height: 90vh;
+}
+
+.about-us-container h2 {
+  font-size: 150px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-align: center;
+  text-shadow: #ccc 0 0 10px;
+}
+
+.about-us-container p {
+  font-size: 50px;
+  font-weight: 500;
+  margin: 40px;
+  text-align: justify;
+  text-decoration: none;
+}
+
+.learn-more-btn {
   padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #2b2a2a;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+  text-align: center;
+  margin: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.learn-more-btn:hover {
+  background-color: #fff;
+  color: #2b2a2a;
+  transition: 0.5s;
+}
+
+.our-services-container {
+  margin: 40px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  padding: 20px;
+  background-color: #2b2a2a;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  height: 90vh;
+  color: white;
+}
+
+.our-services-container h2 {
+  font-size: 150px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.our-services-container p {
+  font-size: 40px;
+  font-weight: 400;
+  text-align: justify;
+}
+
+.more-info-btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #2b2a2a;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+  text-align: center;
+  margin: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.more-info-btn:hover {
+  background-color: #fff;
+  color: #2b2a2a;
+  transition: 0.5s;
 }

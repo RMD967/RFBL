@@ -1,29 +1,74 @@
-.about-us-container {
+.about-us-show-title {
+  font-size: 200px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-align: center;
+  text-shadow: #ccc 0 0 10px;
+}
+
+.about-us-show-container {
   margin: 40px;
   border: 1px solid #ccc;
   border-radius: 15px;
-  padding: 20px;
+  padding: 40px;
   background-color: #2b2a2a;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  height: 90vh;
   color: white;
+  text-align: center;
 }
 
-.about-us-container h2 {
-  font-size: 150px;
+.typed-js {
+  font-family: $headers-font;
+  font-weight: 500;
+  font-size: 100px;
+  text-align: center;
+  text-shadow: #ccc 0 0 10px;
+}
+
+.what-about-us {
+  font-size: 50px;
   font-weight: 700;
+  margin: 40px;
+  text-align: justify;
+  text-decoration: none;
 }
 
-.about-us-container p {
-  font-size: 40px;
-  font-weight: 400;
+.list-of-services-rfbl {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 40px;
+  text-align: left;
 }
 
-.about-us-container a {
-  font-size: 1.5rem;
-  font-weight: 400;
-  color: white;
-  padding: 10PX 20PX;
-  border: 1px solid white;
-  border-radius: 15px;
+.list-of-services-rfbl p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.what-are-we {
+  font-size: 50px;
+  font-weight: 700;
+  margin: 40px;
+  text-align: justify;
+  text-decoration: none;
+}
+
+.list-what-we-are-rfbl {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 40px;
+  text-align: left;
+}
+
+.list-what-we-are-rfbl p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.our-goal-fbl {
+  font-size: 50px;
+  font-weight: 700;
+  margin: 40px;
+  text-align: justify;
+  text-decoration: none;
 }
