@@ -11532,3 +11532,36 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.0ms | Allocations: 9844)
 
 
+Started GET "/pages/pricing" for ::1 at 2023-07-22 22:16:28 -0600
+Processing by PagesController#pricing as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/pricing.html.erb within layouts/application
+  Rendered pages/pricing.html.erb within layouts/application (Duration: 0.3ms | Allocations: 148)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 58)
+  Rendered shared/_footer.html.erb (Duration: 0.4ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 15.2ms | Allocations: 9742)
+Completed 200 OK in 16ms (Views: 15.5ms | Allocations: 10034)
+
+
+Started GET "/pages/app" for ::1 at 2023-07-22 22:16:36 -0600
+Processing by PagesController#app as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/app.html.erb within layouts/application
+  Rendered pages/app.html.erb within layouts/application (Duration: 0.4ms | Allocations: 150)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 58)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 24.2ms | Allocations: 9747)
+Completed 200 OK in 25ms (Views: 24.5ms | Allocations: 10063)
+
+
+Started GET "/" for ::1 at 2023-07-22 22:16:40 -0600
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 24)
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 49)
+  Rendered shared/_footer.html.erb (Duration: 0.7ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 72.7ms | Allocations: 9618)
+Completed 200 OK in 74ms (Views: 73.5ms | Allocations: 9856)
+
+
