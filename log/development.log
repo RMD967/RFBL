@@ -10947,3 +10947,621 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 13ms (Views: 13.2ms | Allocations: 9882)
 
 
+Started GET "/" for ::1 at 2023-07-22 19:46:42 -0600
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.2ms | Allocations: 497)
+  Rendered shared/_navbar.html.erb (Duration: 0.5ms | Allocations: 251)
+  Rendered shared/_footer.html.erb (Duration: 0.5ms | Allocations: 303)
+  Rendered layout layouts/application.html.erb (Duration: 174.4ms | Allocations: 70366)
+Completed 200 OK in 183ms (Views: 176.3ms | ActiveRecord: 0.0ms | Allocations: 74491)
+
+
+Started GET "/" for ::1 at 2023-07-22 19:46:51 -0600
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 36)
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 50)
+  Rendered shared/_footer.html.erb (Duration: 0.6ms | Allocations: 46)
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 9705)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms | Allocations: 10011)
+
+
+Started GET "/" for ::1 at 2023-07-22 19:46:54 -0600
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 24)
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 49)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 11.8ms | Allocations: 9615)
+Completed 200 OK in 12ms (Views: 12.2ms | ActiveRecord: 0.0ms | Allocations: 9860)
+
+
+Started GET "/" for ::1 at 2023-07-22 19:46:58 -0600
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 24)
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 49)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 46)
+  Rendered layout layouts/application.html.erb (Duration: 22.5ms | Allocations: 9614)
+Completed 200 OK in 23ms (Views: 23.0ms | ActiveRecord: 0.0ms | Allocations: 9860)
+
+
+Started GET "/" for ::1 at 2023-07-22 19:47:00 -0600
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 24)
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | Allocations: 49)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 18.8ms | Allocations: 9613)
+Completed 200 OK in 20ms (Views: 19.5ms | ActiveRecord: 0.0ms | Allocations: 9855)
+
+
+Started GET "/" for ::1 at 2023-07-22 19:47:01 -0600
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 24)
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 49)
+  Rendered shared/_footer.html.erb (Duration: 0.6ms | Allocations: 46)
+  Rendered layout layouts/application.html.erb (Duration: 12.8ms | Allocations: 9614)
+Completed 200 OK in 13ms (Views: 13.2ms | ActiveRecord: 0.0ms | Allocations: 9859)
+
+
+Started GET "/" for ::1 at 2023-07-22 19:47:05 -0600
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 24)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 49)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 10.3ms | Allocations: 9612)
+Completed 200 OK in 11ms (Views: 10.8ms | ActiveRecord: 0.0ms | Allocations: 9853)
+
+
+Started GET "/" for ::1 at 2023-07-22 19:47:08 -0600
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 24)
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 49)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 10.7ms | Allocations: 9609)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.0ms | Allocations: 9850)
+
+
+Started GET "/" for ::1 at 2023-07-22 19:47:11 -0600
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 24)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 49)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 9.7ms | Allocations: 9627)
+Completed 200 OK in 10ms (Views: 10.0ms | ActiveRecord: 0.0ms | Allocations: 9868)
+
+
+Started GET "/" for ::1 at 2023-07-22 19:47:21 -0600
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 24)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 49)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 46)
+  Rendered layout layouts/application.html.erb (Duration: 11.5ms | Allocations: 9605)
+Completed 200 OK in 12ms (Views: 11.9ms | ActiveRecord: 0.0ms | Allocations: 9846)
+
+
+Started GET "/" for ::1 at 2023-07-22 19:47:23 -0600
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 24)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 49)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 46)
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | Allocations: 9606)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms | Allocations: 9848)
+
+
+Started GET "/pages/about" for ::1 at 2023-07-22 19:47:34 -0600
+Processing by PagesController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (Duration: 0.4ms | Allocations: 155)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 58)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 9753)
+Completed 200 OK in 9ms (Views: 9.2ms | ActiveRecord: 0.0ms | Allocations: 10069)
+
+
+Started GET "/pages/about" for ::1 at 2023-07-22 21:36:35 -0600
+Processing by PagesController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 58)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 6206.0ms | Allocations: 82489)
+Completed 200 OK in 6208ms (Views: 6206.7ms | Allocations: 82725)
+
+
+Started GET "/" for ::1 at 2023-07-22 21:36:58 -0600
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 24)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 49)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 9585)
+Completed 200 OK in 9ms (Views: 9.0ms | Allocations: 9824)
+
+
+Started GET "/" for ::1 at 2023-07-22 21:36:58 -0600
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 24)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 49)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 9585)
+Completed 200 OK in 10ms (Views: 9.4ms | Allocations: 9823)
+
+
+Started GET "/" for ::1 at 2023-07-22 21:37:26 -0600
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 24)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 49)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 9.2ms | Allocations: 9603)
+Completed 200 OK in 10ms (Views: 9.6ms | Allocations: 9839)
+
+
+Started GET "/" for ::1 at 2023-07-22 21:38:40 -0600
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 24)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 49)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 6218.1ms | Allocations: 81899)
+Completed 200 OK in 6223ms (Views: 6222.7ms | Allocations: 82135)
+
+
+Started GET "/" for ::1 at 2023-07-22 21:39:19 -0600
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 24)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 49)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 46)
+  Rendered layout layouts/application.html.erb (Duration: 5824.5ms | Allocations: 94360)
+Completed 200 OK in 5825ms (Views: 5825.0ms | Allocations: 94597)
+
+
+Started GET "/" for ::1 at 2023-07-22 21:39:51 -0600
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 24)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 49)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 13.6ms | Allocations: 9653)
+Completed 200 OK in 15ms (Views: 14.7ms | Allocations: 9890)
+
+
+Started GET "/" for ::1 at 2023-07-22 21:40:17 -0600
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 233)
+  Rendered shared/_navbar.html.erb (Duration: 2.8ms | Allocations: 235)
+  Rendered shared/_footer.html.erb (Duration: 1.7ms | Allocations: 296)
+  Rendered layout layouts/application.html.erb (Duration: 62.0ms | Allocations: 10840)
+Completed 200 OK in 64ms (Views: 63.3ms | Allocations: 11726)
+
+
+Started GET "/" for ::1 at 2023-07-22 21:41:43 -0600
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 228)
+  Rendered shared/_navbar.html.erb (Duration: 1.7ms | Allocations: 235)
+  Rendered shared/_footer.html.erb (Duration: 0.8ms | Allocations: 296)
+  Rendered layout layouts/application.html.erb (Duration: 16.2ms | Allocations: 10829)
+Completed 200 OK in 18ms (Views: 17.2ms | Allocations: 11729)
+
+
+Started GET "/" for ::1 at 2023-07-22 21:42:39 -0600
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 227)
+  Rendered shared/_navbar.html.erb (Duration: 0.5ms | Allocations: 240)
+  Rendered shared/_footer.html.erb (Duration: 0.7ms | Allocations: 297)
+  Rendered layout layouts/application.html.erb (Duration: 5820.7ms | Allocations: 83363)
+Completed 200 OK in 5823ms (Views: 5821.9ms | Allocations: 84261)
+
+
+Started GET "/" for ::1 at 2023-07-22 21:43:11 -0600
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 24)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 49)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 6231.8ms | Allocations: 81889)
+Completed 200 OK in 6232ms (Views: 6232.3ms | Allocations: 82143)
+
+
+Started GET "/" for ::1 at 2023-07-22 21:43:25 -0600
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 24)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 49)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 26.4ms | Allocations: 9615)
+Completed 200 OK in 27ms (Views: 26.8ms | Allocations: 9853)
+
+
+Started GET "/" for ::1 at 2023-07-22 21:43:39 -0600
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 24)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 49)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 59.7ms | Allocations: 9600)
+Completed 200 OK in 62ms (Views: 60.2ms | Allocations: 9838)
+
+
+Started GET "/" for ::1 at 2023-07-22 21:43:50 -0600
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 24)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 49)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 5752.8ms | Allocations: 81876)
+Completed 200 OK in 5754ms (Views: 5753.5ms | Allocations: 82112)
+
+
+Started GET "/" for ::1 at 2023-07-22 21:44:01 -0600
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 24)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 49)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 12.0ms | Allocations: 9603)
+Completed 200 OK in 12ms (Views: 12.3ms | Allocations: 9842)
+
+
+Started GET "/" for ::1 at 2023-07-22 21:44:33 -0600
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 24)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 49)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 14.0ms | Allocations: 9612)
+Completed 200 OK in 15ms (Views: 14.6ms | Allocations: 9850)
+
+
+Started GET "/" for ::1 at 2023-07-22 21:44:36 -0600
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 24)
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 49)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 19.7ms | Allocations: 9594)
+Completed 200 OK in 21ms (Views: 20.5ms | Allocations: 9832)
+
+
+Started GET "/" for ::1 at 2023-07-22 21:46:09 -0600
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 24)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 49)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 46)
+  Rendered layout layouts/application.html.erb (Duration: 5784.2ms | Allocations: 81940)
+Completed 200 OK in 5785ms (Views: 5784.7ms | Allocations: 82176)
+
+
+Started GET "/" for ::1 at 2023-07-22 21:46:39 -0600
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 24)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 49)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 5656.2ms | Allocations: 81889)
+Completed 200 OK in 5657ms (Views: 5656.7ms | Allocations: 82126)
+
+
+Started GET "/" for ::1 at 2023-07-22 21:53:47 -0600
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.2ms | Allocations: 281)
+  Rendered layout layouts/application.html.erb (Duration: 4604.3ms | Allocations: 45220)
+Completed 500 Internal Server Error in 4608ms (Allocations: 46108)
+
+
+  
+ActionView::Template::Error (Error: Function hsl is missing argument $saturation.
+        on line 5:9 of app/assets/stylesheets/components/_index.scss
+        from line 12:9 of app/assets/stylesheets/application.scss
+>>   -webkit-text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3),
+
+   -----------------------------------^
+):
+     7:     <%= csrf_meta_tags %>
+     8:     <%= csp_meta_tag %>
+     9: 
+    10:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    11:     <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
+    12:   </head>
+    13: 
+  
+app/assets/stylesheets/components/_button.scss:92
+app/views/layouts/application.html.erb:10
+Started GET "/" for ::1 at 2023-07-22 21:55:54 -0600
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 33)
+  Rendered layout layouts/application.html.erb (Duration: 4653.1ms | Allocations: 42514)
+Completed 500 Internal Server Error in 4654ms (Allocations: 42761)
+
+
+  
+ActionView::Template::Error (Error: wrong number of arguments (4 for 3) for `hsl'
+        on line 92:36 of app/assets/stylesheets/components/_button.scss
+        from line 5:9 of app/assets/stylesheets/components/_index.scss
+        from line 12:9 of app/assets/stylesheets/application.scss
+>>   -webkit-text-shadow: 0 0 0.125em hsl(0, 0%, 100%, 0.3),
+
+   -----------------------------------^
+):
+     7:     <%= csrf_meta_tags %>
+     8:     <%= csp_meta_tag %>
+     9: 
+    10:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    11:     <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
+    12:   </head>
+    13: 
+  
+app/assets/stylesheets/components/_button.scss:92
+app/views/layouts/application.html.erb:10
+Started GET "/" for ::1 at 2023-07-22 21:56:24 -0600
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 24)
+  Rendered layout layouts/application.html.erb (Duration: 4670.9ms | Allocations: 42196)
+Completed 500 Internal Server Error in 4671ms (Allocations: 42408)
+
+
+  
+ActionView::Template::Error (Error: Function hsl is missing argument $saturation.
+        on line 5:9 of app/assets/stylesheets/components/_index.scss
+        from line 12:9 of app/assets/stylesheets/application.scss
+>>   -webkit-text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em var(--gl
+   -----------------------------------^
+):
+     7:     <%= csrf_meta_tags %>
+     8:     <%= csp_meta_tag %>
+     9: 
+    10:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    11:     <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
+    12:   </head>
+    13: 
+  
+app/assets/stylesheets/components/_button.scss:92
+app/views/layouts/application.html.erb:10
+Started GET "/" for ::1 at 2023-07-22 21:57:08 -0600
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 24)
+  Rendered layout layouts/application.html.erb (Duration: 4727.9ms | Allocations: 42196)
+Completed 500 Internal Server Error in 4729ms (Allocations: 42408)
+
+
+  
+ActionView::Template::Error (Error: wrong number of arguments (4 for 3) for `hsl'
+        on line 92:36 of app/assets/stylesheets/components/_button.scss
+        from line 5:9 of app/assets/stylesheets/components/_index.scss
+        from line 12:9 of app/assets/stylesheets/application.scss
+>>   -webkit-text-shadow: 0 0 0.125em hsl(0, 0%, 100%, 0.3), 0 0 0.45em var(--g
+   -----------------------------------^
+):
+     7:     <%= csrf_meta_tags %>
+     8:     <%= csp_meta_tag %>
+     9: 
+    10:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    11:     <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
+    12:   </head>
+    13: 
+  
+app/assets/stylesheets/components/_button.scss:92
+app/views/layouts/application.html.erb:10
+Started GET "/" for ::1 at 2023-07-22 21:57:38 -0600
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 24)
+  Rendered layout layouts/application.html.erb (Duration: 4652.9ms | Allocations: 42189)
+Completed 500 Internal Server Error in 4654ms (Allocations: 42401)
+
+
+  
+ActionView::Template::Error (Error: Function hsl is missing argument $saturation.
+        on line 5:9 of app/assets/stylesheets/components/_index.scss
+        from line 12:9 of app/assets/stylesheets/application.scss
+>>   -webkit-text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em var(--gl
+   -----------------------------------^
+):
+     7:     <%= csrf_meta_tags %>
+     8:     <%= csp_meta_tag %>
+     9: 
+    10:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    11:     <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
+    12:   </head>
+    13: 
+  
+app/assets/stylesheets/components/_button.scss:92
+app/views/layouts/application.html.erb:10
+Started GET "/" for ::1 at 2023-07-22 21:58:13 -0600
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 24)
+  Rendered shared/_navbar.html.erb (Duration: 0.5ms | Allocations: 239)
+  Rendered shared/_footer.html.erb (Duration: 0.4ms | Allocations: 297)
+  Rendered layout layouts/application.html.erb (Duration: 5430.0ms | Allocations: 82743)
+Completed 200 OK in 5431ms (Views: 5430.4ms | Allocations: 82987)
+
+
+Started GET "/" for ::1 at 2023-07-22 22:00:41 -0600
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 235)
+  Rendered shared/_navbar.html.erb (Duration: 0.6ms | Allocations: 235)
+  Rendered shared/_footer.html.erb (Duration: 3.0ms | Allocations: 296)
+  Rendered layout layouts/application.html.erb (Duration: 12.9ms | Allocations: 10860)
+Completed 200 OK in 17ms (Views: 14.7ms | Allocations: 11736)
+
+
+Started GET "/" for ::1 at 2023-07-22 22:04:11 -0600
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 503)
+  Rendered shared/_navbar.html.erb (Duration: 0.4ms | Allocations: 253)
+  Rendered shared/_footer.html.erb (Duration: 0.6ms | Allocations: 303)
+  Rendered layout layouts/application.html.erb (Duration: 5868.1ms | Allocations: 138369)
+Completed 200 OK in 5876ms (Views: 5870.2ms | ActiveRecord: 0.0ms | Allocations: 142495)
+
+
+Started GET "/" for ::1 at 2023-07-22 22:04:25 -0600
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 50)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 46)
+  Rendered layout layouts/application.html.erb (Duration: 8.4ms | Allocations: 9697)
+Completed 200 OK in 9ms (Views: 8.9ms | ActiveRecord: 0.0ms | Allocations: 10003)
+
+
+Started GET "/" for ::1 at 2023-07-22 22:05:49 -0600
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 237)
+  Rendered shared/_navbar.html.erb (Duration: 0.5ms | Allocations: 240)
+  Rendered shared/_footer.html.erb (Duration: 0.5ms | Allocations: 296)
+  Rendered layout layouts/application.html.erb (Duration: 6032.3ms | Allocations: 83559)
+Completed 200 OK in 6034ms (Views: 6033.5ms | ActiveRecord: 0.0ms | Allocations: 84479)
+
+
+Started GET "/" for ::1 at 2023-07-22 22:06:17 -0600
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 24)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 49)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 7071.6ms | Allocations: 82055)
+Completed 200 OK in 7082ms (Views: 7081.9ms | ActiveRecord: 0.0ms | Allocations: 82318)
+
+
+Started GET "/" for ::1 at 2023-07-22 22:07:38 -0600
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 24)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 49)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 9.3ms | Allocations: 9603)
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.0ms | Allocations: 9842)
+
+
+Started GET "/" for ::1 at 2023-07-22 22:08:19 -0600
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 24)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 49)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 6661.1ms | Allocations: 82062)
+Completed 200 OK in 6662ms (Views: 6661.4ms | ActiveRecord: 0.0ms | Allocations: 82301)
+
+
+Started GET "/" for ::1 at 2023-07-22 22:09:22 -0600
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 24)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 49)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 6978.3ms | Allocations: 82060)
+Completed 200 OK in 6979ms (Views: 6978.7ms | ActiveRecord: 0.0ms | Allocations: 82303)
+
+
+Started GET "/" for ::1 at 2023-07-22 22:09:52 -0600
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 24)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 49)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 8.8ms | Allocations: 9603)
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.0ms | Allocations: 9844)
+
+
+Started GET "/pages/pricing" for ::1 at 2023-07-22 22:16:28 -0600
+Processing by PagesController#pricing as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/pricing.html.erb within layouts/application
+  Rendered pages/pricing.html.erb within layouts/application (Duration: 0.3ms | Allocations: 148)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 58)
+  Rendered shared/_footer.html.erb (Duration: 0.4ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 15.2ms | Allocations: 9742)
+Completed 200 OK in 16ms (Views: 15.5ms | Allocations: 10034)
+
+
+Started GET "/pages/app" for ::1 at 2023-07-22 22:16:36 -0600
+Processing by PagesController#app as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/app.html.erb within layouts/application
+  Rendered pages/app.html.erb within layouts/application (Duration: 0.4ms | Allocations: 150)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 58)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 24.2ms | Allocations: 9747)
+Completed 200 OK in 25ms (Views: 24.5ms | Allocations: 10063)
+
+
+Started GET "/" for ::1 at 2023-07-22 22:16:40 -0600
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 24)
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 49)
+  Rendered shared/_footer.html.erb (Duration: 0.7ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 72.7ms | Allocations: 9618)
+Completed 200 OK in 74ms (Views: 73.5ms | Allocations: 9856)
+
+
