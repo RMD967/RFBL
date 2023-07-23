@@ -29,12 +29,9 @@
 
 .about-us-container {
   margin: 40px;
-  border: 1px solid #ccc;
   border-radius: 15px;
   padding: 20px;
-  background-color: #2b2a2a;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  height: 90vh;
 }
 
 .about-us-container h2 {
@@ -76,27 +73,6 @@
   font-weight: 400;
   text-align: justify;
 }
-
-.more-info-btn {
-  padding: 10px 20px;
-  border-radius: 5px;
-  background-color: #2b2a2a;
-  color: #fff;
-  font-size: 20px;
-  font-weight: 500;
-  text-decoration: none;
-  text-align: center;
-  margin: 20px;
-  border: 1px solid #ccc;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
-
-.more-info-btn:hover {
-  background-color: #fff;
-  color: #2b2a2a;
-  transition: 0.5s;
-}
-
 
 .our-app-container {
   margin: 40px;
