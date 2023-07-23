@@ -1,3 +1,7 @@
+.hide_navbar_banner_content {
+  display: none !important;
+}
+
 .navbar-rfbl {
   display: flex;
   flex-direction: row;
@@ -5,13 +9,19 @@
   position: fixed;
   top: 0;
   width: 100%;
-  background: linear-gradient(to top, rgba(5, 5, 5, 0.466), rgba(5, 5, 5, 0));
-  backdrop-filter: blur(10px);
+  background: linear-gradient(to top, rgba(5, 5, 5, 0), rgba(5, 5, 5, 0.3), rgba(5, 5, 5, 0.5), rgb(5, 5, 5));
   z-index: 0;
 }
 
+
 .navbar-rfbl-logo img {
   width: 150px;
+  transition: transform 0.5s cubic-bezier(0.23, 1, 0.32, 1), filter 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.navbar-rfbl-logo img:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(0 5px 10px rgba(255, 0, 0, 0.5));
 }
 
 .rfbl-path-to {
@@ -27,4 +37,17 @@
   text-decoration: none;
   font-size: 25px;
   padding: 10px 20px 10px 20px;
+  background-image: linear-gradient(rgb(255, 166, 0), rgb(255, 145, 0));
+  background-size: 100% 2px;
+  background-repeat: no-repeat;
+  background-position: 100% 100%; /* Change the position to start from the bottom */
+  transition: background-size 0.7s, background-position 0.5s ease-in-out;
+  border-radius: 15px;
+}
+
+.rfbl-path-to a:hover {
+  background-size: 100% 100%;
+  background-position: 0% 0%; /* Change the position to fill from the bottom */
+  transition: background-position 0.7s, background-size 0.5s ease-in-out, text-shadow 0.9s ease-in-out;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }

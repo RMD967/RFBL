@@ -1,9 +1,7 @@
-<div class="home-banner-radio">
-  <img src='https://i.postimg.cc/9FFMsQKy/296275ba-ece4-4ff3-aefc-9f970c8db432.jpg' alt='RADIO FBL'>
-  <div class="home-banner-radio-content">
-    <h1>Radios FBL!</h1>
-    <p>The evolution of the radio.</p>
-  </div>
+<div class="home-banner-radio-content" data-controller="hide-navbar">
+  <h1>Radios FBL!</h1>
+  <p>The evolution of the radio.</p>
+  <a class="learn-more-btn" href="<%= root_path %>#about">Tune in!</a>
 </div>
 <div id="about">
   <div class="about-us-container">
@@ -11,7 +9,7 @@
     <p>
       Welcome to Radios FBL, your premier audiovisual production company specializing in providing high-quality services for independent artists and musicians. With a passion for creativity and a commitment to excellence, we strive to bring your artistic vision to life.
     </p>
-    <a class="learn-more-btn" href="/pages/about">Learn more!</a>
+    <a class="more-info-btn" href="/pages/about">Learn more!</a>
   </div>
 </div>
 <div id="services">
@@ -21,7 +19,6 @@
       We offer a wide range of services to help you achieve your artistic goals. Click on "More info!" or on each card.
     </p>
     <a class="more-info-btn" href="/services/index">More info!</a>
-    <%= render partial: "/services/services_cards" %>
   </div>
 <div id="app">
   <div class="our-app-container">
@@ -29,16 +26,16 @@
     <p>
       Our app is available on Android and iOS. Download now to get started!
     </p>
-    <a class="btn btn-flat" href="/pages/about">Learn more!</a>
+    <a class="btn btn-flat" href="/pages/app">Learn more!</a>
   </div>
 </div>
 <div id="contact">
   <div class="rfbl-contact-container">
     <h2>Contact Us</h2>
-    <p>
+    <h4>
       Have a question or want to collaborate with us? Reach out to our team and let's discuss your project. We'd love to hear from you!
-    </p>
-    <p>Email: info@radiosfbl.com</p>
-    <p>Phone: +52 (222) 512-2454</p>
+    </h4>
+    <i class="fas fa-envelope"></i> <p> info@radiosfbl.com</p>
+    <i class="fab fa-whatsapp"></i> <p> +52 (222) 512-2454</p>
   </div>
 </div>

@@ -8,5 +8,12 @@ Rails.application.routes.draw do
   get 'team/our_team', to: 'team#our_team'
   get 'team/RMD', to: 'team#RMD'
   get 'pages/about', to: 'pages#about'
+  get 'pages/app_tester', to: 'pages#app_tester'
+  get 'pages/app', to: 'pages#app'
+  get 'pages/fqa', to: 'pages#fqa'
+  get 'pages/help', to: 'pages#help'
+  get 'pages/pricing', to: 'pages#pricing'
+  get 'pages/privacy', to: 'pages#privacy'
+  get 'pages/terms', to: 'pages#terms'
   root to: 'pages#home'
 end
