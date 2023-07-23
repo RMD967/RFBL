@@ -10,10 +10,27 @@
 
 // Your CSS partials
 @import "components/index";
-@import "pages/index";
 
+// Your CSS main files
+@import "pages/about";
+@import "pages/app_tester";
+@import "pages/app";
+@import "pages/fqa";
+@import "pages/help";
+@import "pages/home";
+@import "pages/pricing";
+@import "pages/privacy";
+@import "pages/terms";
+@import "services/services_cards";
+@import "services/services";
+@import "services/audio_production";
+@import "services/graphic_design";
+@import "services/live_event_stream";
+@import "services/video_production";
+@import "services/web_development";
+@import "team/our_team";
+@import "team/RMD";
 #main-page-color {
   background-color: $main-page-color;
   color: $main-font-color;
-  margin-top: 120px;
 }

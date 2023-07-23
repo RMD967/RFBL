@@ -1,0 +1,162 @@
+.home-banner-radio-content {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  z-index: 1;
+  background-color: $main-page-color;
+}
+
+.home-banner-radio-content h1 {
+  font-size: 220px;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  font-family: $headers-font;
+  font-weight: 900;
+  border-bottom: 4px solid #ccc;
+  width: 100%;
+	box-sizing: border-box;
+}
+
+.home-banner-radio-content p {
+  font-size: 80px;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  font-family: $body-font;
+  font-weight: lighter
+}
+
+.about-us-container {
+  margin: 40px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  padding: 20px;
+  background-color: #2b2a2a;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  height: 90vh;
+}
+
+.about-us-container h2 {
+  font-size: 150px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-align: center;
+  text-shadow: #ccc 0 0 10px;
+}
+
+.about-us-container p {
+  font-size: 50px;
+  font-weight: 500;
+  margin: 40px;
+  text-align: justify;
+  text-decoration: none;
+}
+
+
+.our-services-container {
+  margin: 40px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  padding: 20px;
+  background-color: #2b2a2a;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  height: 90vh;
+  color: white;
+}
+
+.our-services-container h2 {
+  font-size: 150px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.our-services-container p {
+  font-size: 40px;
+  font-weight: 400;
+  text-align: justify;
+}
+
+.more-info-btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #2b2a2a;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+  text-align: center;
+  margin: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.more-info-btn:hover {
+  background-color: #fff;
+  color: #2b2a2a;
+  transition: 0.5s;
+}
+
+
+.our-app-container {
+  margin: 40px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  padding: 20px;
+  background-color: #2b2a2a;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  height: 90vh;
+  color: white;
+}
+
+.our-app-container h2 {
+  font-size: 150px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.our-app-container p {
+  font-size: 40px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.our-app-container a {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: white;
+  padding: 10PX 20PX;
+  border: 1px solid white;
+  border-radius: 15px;
+  align-items: center;
+}
+
+.rfbl-contact-container {
+  margin: 40px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  padding: 20px;
+  background-color: #2b2a2a;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  height: 90vh;
+  color: white;
+}
+
+.rfbl-contact-container h2 {
+  font-size: 150px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.rfbl-contact-container p {
+  font-size: 40px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.rfbl-contact-container i {
+  font-size: 40px;
+  font-weight: 400;
+  text-align: center;
+  justify-content: center;
+}
