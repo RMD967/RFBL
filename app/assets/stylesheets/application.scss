@@ -1,3 +1,6 @@
+//Fonts
+@import url('https://fonts.googleapis.com/css?family=Pirata+One|Rubik:900');
+
 // Graphical variables
 @import "config/fonts";
 @import "config/colors";
@@ -30,7 +33,10 @@
 @import "services/web_development";
 @import "team/our_team";
 @import "team/RMD";
+
 #main-page-color {
-  background-color: $main-page-color;
+  background-color: #070c16;
+  background: linear-gradient(to right, #0e0e18, #0a0f18, #070518);
   color: $main-font-color;
+  user-select: none;
 }
