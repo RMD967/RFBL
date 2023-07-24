@@ -1,5 +1,5 @@
 <div class="home-banner-radio-content" data-controller="hide-navbar">
-  <h1>Radios FBL!</h1>
+  <h1>RADIOS FBL</h1>
   <p>The evolution of the radio.</p>
   <a href="<%= root_path %>#about">
     <button class="glowing-btn">
@@ -12,36 +12,42 @@
 <div id="about">
   <div class="about-us-container">
     <h2>About Us</h2>
-    <p>
-      Welcome to Radios FBL, your premier audiovisual production company specializing in providing high-quality services for independent artists and musicians. With a passion for creativity and a commitment to excellence, we strive to bring your artistic vision to life.
-    </p>
+    <div class="about-content">
+      <p> Welcome to Radios FBL, your premier audiovisual production company specializing in providing high-quality services for independent artists and musicians. With a passion for creativity and a commitment to excellence, we strive to bring your artistic vision to life.</p>
+      <img src="<%= asset_path('STUDIO-BK-MIC-FRNT.webp') %>" alt="fito en la comput">
+    </div>
     <a class="learn-more-btn" href="/pages/about">Learn more!</a>
   </div>
 </div>
 <div id="services">
   <div class="our-services-container">
     <h2>Our Services</h2>
-    <p>
-      We offer a wide range of services to help you achieve your artistic goals. Click on "More info!" or on each card.
-    </p>
+    <div class="our-container-assets">
+      <img src="<%= asset_path('MSC-PROD.webp') %>" alt="">
+      <p> We offer a wide range of services to help you achieve your artistic goals. Click on "More info!" or on each card.</p>
+    </div>
     <a class="learn-more-btn" href="/services/index">More info!</a>
   </div>
 <div id="app">
   <div class="our-app-container">
     <h2>Our app</h2>
-    <p>
-      Our app is available on Android and iOS. Download now to get started!
-    </p>
+    <img src="<%= asset_path('RFBL-APP.webp') %>" alt="">
+    <p> Our app is available on Android and iOS. Download now to get started! </p>
     <a class="learn-more-btn" href="/pages/app">Learn more!</a>
   </div>
 </div>
 <div id="contact">
   <div class="rfbl-contact-container">
-    <h2>Contact Us</h2>
-    <h4>
-      Have a question or want to collaborate with us? Reach out to our team and let's discuss your project. We'd love to hear from you!
-    </h4>
-    <i class="fas fa-envelope"></i> <p> info@radiosfbl.com</p>
-    <i class="fab fa-whatsapp"></i> <p> +52 (222) 512-2454</p>
+    <div class="image-container">
+      <img src="<%= asset_path('UPCLS-GUIT.webp') %>" alt="">
+    </div>
+    <div class="text-overlay">
+      <h2>Contact Us</h2>
+      <h4>
+        Have a question or want to collaborate with us? Reach out to our team and let's discuss your project. We'd love to hear from you!
+      </h4>
+      <i class="fas fa-envelope"></i><p>info@radiosfbl.com</p>
+      <i class="fab fa-whatsapp"></i><p>+52 (222) 512-2454</p>
+    </div>
   </div>
 </div>
