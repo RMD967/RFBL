@@ -14,7 +14,7 @@
   font-family: 'Rubik', sans-serif;
   font-size: 200px;
   position: relative;
-  background: linear-gradient(to right, #24243e, #141E30, #1a163b);
+  background: linear-gradient(to right, #a5a5ff, #75a5ff, #7667ff);
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -193,6 +193,7 @@
 .rfbl-contact-container {
   height: 100vh;
   position: relative;
+  z-index: -1;
 }
 
 .image-container {
@@ -214,14 +215,9 @@
 .text-overlay {
   position: absolute;
   top: 0;
-  left: 0;
   padding: 20px;
-  color: white;
+  text-shadow: 3px 3px 3px #000000;
   /* Add any additional styles for the text overlay */
-}
-
-.text-overlay h2, .text-overlay h4, .text-overlay p {
-  margin: 0;
 }
 
 .rfbl-contact-container h2 {
